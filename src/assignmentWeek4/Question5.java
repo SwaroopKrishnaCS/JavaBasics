@@ -16,6 +16,7 @@ public class Question5 {
 
 		int num1 = 6;
 		int num2 = 5;
+		
 		if (num1 % 3 == 0 && num2 % 3 == 0) {
 			System.out.println("Both the numbers are divisible by 3");
 		} else if (num1 % 3 == 0 && num2 % 3 != 0) {

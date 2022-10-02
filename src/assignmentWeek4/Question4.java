@@ -16,7 +16,9 @@ public class Question4 {
 		String currentLevel = "G";
 
 		if (ageOfPerson >= 16) {
-			if (currentLevel.equals("G1")) {
+			if (currentLevel.equals("No License")) {
+				System.out.println("Lisense can be issued with class G1");
+			}else if (currentLevel.equals("G1")) {
 				System.out.println("Lisense can be issued with class G2");
 			} else if (currentLevel.equals("G2")) {
 				System.out.println("Lisense can be issued with class G");
