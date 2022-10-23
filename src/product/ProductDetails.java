@@ -3,7 +3,8 @@ package product;
 public class ProductDetails {
 	private String productName;
 	private double productPrice;
-	private String promoCode="Promo5";
+	public String promoCode;
+	String abc;
 	
 	public ProductDetails(String prodName, double prodPrice) {
 		productName = prodName;
@@ -47,7 +48,5 @@ public class ProductDetails {
 		System.out.println("Product Price: "+productPrice); 
 		
 	}
-	
-	
 
 }

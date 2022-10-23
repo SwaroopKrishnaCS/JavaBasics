@@ -29,6 +29,10 @@ public class ProductMain {
 		
 		shampoo.setProductPrice(15);
 		shampoo.getProductPrice();
+
+//		shampoo.promoCode;
+		shampoo.abc="ABC";
+		
 		
 
 	}

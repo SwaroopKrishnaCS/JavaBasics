@@ -1,5 +1,7 @@
 package learnObjects;
 
+import product.ProductDetails;
+
 public class TaxMain {
 
 	public static void main(String[] args) {
@@ -10,7 +12,10 @@ public class TaxMain {
 		taxCalculation.utilityRebate(false);
 		taxCalculation.hasKids(19);
 		taxCalculation.finalTaxCalculated();
-
+		
+		ProductDetails handSoap = new ProductDetails("Lifebuoy", 15);
+		handSoap.promoCode = "Promo15";
+		
 	}
 
 }
