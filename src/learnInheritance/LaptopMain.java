@@ -17,6 +17,14 @@ public class LaptopMain {
 		HP hp = new HP();
 		
 		hp.payingExtraCharge(true);
+		
+		DellInspiron dellInspiron = new DellInspiron();
+		
+		dellInspiron.screenSize();
+		dellInspiron.operatingSystem();
+		dellInspiron.usabilityOfModel();
+		
+		
 
 	}
 
